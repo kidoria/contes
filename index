@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kidoria</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Kidoria ✨</div>
+  <nav>
+    <a href="#que-es">¿Qué es Kidoria?</a>
+    <a href="#actividades-menu">Actividades</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Bienvenidos a Kidoria</h1>
+  <p>Historias mágicas que despiertan imaginación y valores.</p>
+
+  <div class="menu-cuentos">
+    <div class="cuento-item">
+      El Bosque de los Susurros
+      <div class="descripcion">Una historia sobre escuchar la naturaleza.</div>
+    </div>
+
+    <div class="cuento-item">
+      La Estrella Valiente
+      <div class="descripcion">Descubre la luz que vive en ti.</div>
+    </div>
+
+    <div class="cuento-item destacado">
+      El Viaje de Nuba 🌟
+      <div class="descripcion">Cuento destacado del mes.</div>
+    </div>
+
+    <div class="cuento-item">
+      Lila y la Puerta Secreta
+      <div class="descripcion">Un misterio lleno de imaginación.</div>
+    </div>
+  </div>
+</section>
+
+<section id="que-es" class="que-es">
+  <h2>¿Qué es Kidoria?</h2>
+  <p>
+    Kidoria es un espacio digital de cuentos infantiles interactivos diseñados para estimular la imaginación y la creatividad.
+    Cada historia incluye música, narrador, traducción y actividades educativas.
+  </p>
+</section>
+
+<section id="actividades-menu" class="menu-actividades">
+  <h2>Explora nuestras actividades</h2>
+  <div class="menu-cuentos">
+    <div class="cuento-item">
+      Colorear personajes
+      <div class="descripcion">Descarga e imprime ilustraciones.</div>
+    </div>
+    <div class="cuento-item">
+      Juegos creativos
+      <div class="descripcion">Retos divertidos para aprender jugando.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Kidoria - Todos los derechos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
