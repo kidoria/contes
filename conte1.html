@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Viaje de Nuba</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Kidoria ✨</div>
+</header>
+
+<section class="cuento">
+  <h1 id="titulo">El Viaje de Nuba</h1>
+
+  <div class="controles">
+    <button onclick="toggleMusica()">🎵 Música</button>
+    <button onclick="traducir()">🌍 Traducir</button>
+    <button onclick="toggleNarrador()">🎙️ Narrador</button>
+  </div>
+
+  <div class="bloque">
+    <img src="https://picsum.photos/500/300" class="magico">
+    <p id="p1">Nuba soñaba con cruzar el gran valle dorado.</p>
+  </div>
+
+  <div class="bloque alternado">
+    <p id="p2">Todos decían que era demasiado pequeño para intentarlo.</p>
+    <img src="https://picsum.photos/501/300" class="magico">
+  </div>
+
+  <div class="bloque alternado">
+    <img src="https://picsum.photos/502/300" class="magico">
+    <p id="p3">Pero escuchó su corazón y dio el primer paso hacia la aventura.</p>
+  </div>
+
+  <div class="centrar">
+    <a href="actividad.html" class="boton-magico">Ir a la actividad infantil</a>
+  </div>
+
+</section>
+
+<audio id="musica" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="narrador">
+  <source src="narrador.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
