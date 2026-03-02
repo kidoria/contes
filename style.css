@@ -1,0 +1,125 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+header {
+  background: #4DB6AC;
+  color: white;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+h1, h2 {
+  color: #4DB6AC;
+}
+
+.menu-cuentos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.cuento-item {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.cuento-item:hover {
+  transform: translateY(-5px);
+}
+
+.descripcion {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.cuento-item:hover .descripcion {
+  display: block;
+}
+
+.destacado {
+  color: #8E44AD;
+  font-weight: 600;
+}
+
+.boton-magico, button {
+  background: #EF4E4E;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #F7C325;
+}
+
+.boton-magico:hover, button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #F7C325;
+}
+
+.bloque {
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.alternado {
+  flex-direction: row;
+}
+
+.bloque img {
+  width: 50%;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.magico:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px #F7C325;
+}
+
+footer {
+  background: #4DB6AC;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.header-actividad {
+  background: #4DB6AC;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .bloque {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
